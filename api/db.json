@@ -1,19 +1,24 @@
 {
-    "categorias": [
-        {
-            "id": 1,
-            "nome": "Parques",
-            "descricao": "Locais ao ar livre com áreas verdes, trilhas e espaços para atividades recreativas."
-        },
-        {
-            "id": 2,
-            "nome": "Museus",
-            "descricao": "Instituições que preservam e exibem coleções de arte, história ou ciência."
-        },
-        {
-            "id": 3,
-            "nome": "Praias",
-            "descricao": "Áreas costeiras com areia ou pedras, ideais para relaxamento e atividades aquáticas."
-        }
-    ]
+  "categorias": [
+    {
+      "id": "1",
+      "nome": "Parques",
+      "descricao": "Locais ao ar livre com áreas verdes, trilhas e espaços para atividades recreativas."
+    },
+    {
+      "id": "2",
+      "nome": "Museus",
+      "descricao": "Instituições que preservam e exibem coleções de arte, história ou ciência."
+    },
+    {
+      "id": "3",
+      "nome": "Praias",
+      "descricao": "Áreas costeiras com areia ou pedras, ideais para relaxamento e atividades aquáticas."
+    },
+    {
+      "id": "bf6c",
+      "nome": "Restaurantes",
+      "descricao": "Local de lazer para famílias"
+    }
+  ]
 }
