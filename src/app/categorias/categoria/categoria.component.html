@@ -12,7 +12,7 @@
                    class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" 
                    placeholder="Digite o nome da categoria" 
                    required>
-            <span class="text-sm text-red-500">
+            <span class="text-sm text-red-500" *ngIf="isCampoInvalido('nome')">
                 Campo obrigatório
             </span>
         </div>
@@ -26,7 +26,7 @@
                 class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                 placeholder="Digite a descrição da categoria">
             </textarea>
-            <span class="text-sm text-red-500">
+            <span class="text-sm text-red-500" *ngIf="isCampoInvalido('descricao')">
                 Campo obrigatório
             </span>
         </div>

@@ -18,7 +18,15 @@ export class CategoriaComponent {
   }
 
   salvar(){
-    console.log(this.categoriaForm.value);
-    console.log('IsValid:' + this.categoriaForm.valid);
+    this.categoriaForm.markAllAsTouched();
+    
+    if (this.categoriaForm.valid) {
+      console.log(this.categoriaForm.value);
+    }
+  }
+
+  isCampoInvalido(campo: string): boolean {
+    const controle = this.categoriaForm.get(campo);
+    return controle ? controle.invalid && (controle.dirty || controle.touched) : false;
   }
 }
