@@ -11,7 +11,7 @@
                 <select class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                         name="categoria"
                         [(ngModel)]="categoria">
-                    <option [value]="">Todas as categorias</option>
+                    <option [value]="-1">Todas as categorias</option>
                     <option *ngFor="let cat of categorias" [value]="cat.nome">{{ cat.nome }}</option>
                 </select>
 
