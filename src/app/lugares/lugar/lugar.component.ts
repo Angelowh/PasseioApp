@@ -33,12 +33,21 @@ export class LugarComponent implements OnInit {
   }
 
   salvar(){
-    this.service.salvar(this.lugarForm.value).subscribe({
-      next: lugar => {
-          console.log(lugar)
-          this.lugarForm.reset()
-      },
-      error: err => console.log(err)
-    })
+    this.lugarForm.markAllAsTouched()
+
+    if(this.lugarForm.valid){
+      this.service.salvar(this.lugarForm.value).subscribe({
+        next: lugar => {
+            console.log(lugar)
+            this.lugarForm.reset()
+        },
+        error: err => console.log(err)
+      })
+    }
+  }
+
+  isCampoInvalido(campo: string): boolean {
+    const controle = this.lugarForm.get(campo);
+    return controle ? controle.invalid && (controle.dirty || controle.touched) : false;
   }
 }
