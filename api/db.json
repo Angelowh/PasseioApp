@@ -27,8 +27,24 @@
       "nome": "Praça da Matriz",
       "categoria": "Parques",
       "localizacao": "Paraipaba",
-      "urlFoto": "teste",
+      "urlFoto": "https://upload.wikimedia.org/wikipedia/commons/0/03/Igreja_matriz_paraipaba_ce.JPG",
       "avaliacao": "3"
+    },
+    {
+      "id": "ba54",
+      "nome": "Lagoinha",
+      "categoria": "Praias",
+      "localizacao": "Paraipaba",
+      "urlFoto": "https://www.viagensecaminhos.com/wp-content/uploads/2013/03/lagoinha-ce.jpg",
+      "avaliacao": "4"
+    },
+    {
+      "id": "4d22",
+      "nome": "Dragão do Mar",
+      "categoria": "Museus",
+      "localizacao": "Fortaleza",
+      "urlFoto": "https://aem-all.accor.com/content/dam/all/hubs/americas/latam/generic-images/all-magazine/centro-dragao-mar-arte-cultura-2024-1.jpg",
+      "avaliacao": "5"
     }
   ]
 }
