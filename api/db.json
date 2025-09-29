@@ -20,5 +20,15 @@
       "nome": "Restaurantes",
       "descricao": "Local de lazer para famílias"
     }
+  ],
+  "lugares": [
+    {
+      "id": "fbb5",
+      "nome": "Praça da Matriz",
+      "categoria": "Parques",
+      "localizacao": "Paraipaba",
+      "urlFoto": "teste",
+      "avaliacao": "3"
+    }
   ]
 }
