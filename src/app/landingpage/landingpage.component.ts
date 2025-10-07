@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
   styleUrl: './landingpage.component.scss'
 })
 export class LandingpageComponent {
+
   profile: Profile | undefined
 
   constructor(private router: Router){}
@@ -19,5 +20,9 @@ export class LandingpageComponent {
 
   isLoggedIn(){
     return !!this.profile
+  }
+  
+  logar() {
+    throw new Error('Method not implemented.');
   }
 }
