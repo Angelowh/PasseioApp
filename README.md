@@ -17,11 +17,11 @@ PasseioApp é um projeto de estudo com foco em aprimorar habilidades em estiliza
 
 Aqui estão as principais tecnologias e ferramentas usadas no PasseioApp:
 
-- Angular — Framework principal do frontend, para componentes, roteamento e lógica de interface.
+- <img src="https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white"/> — Framework principal do frontend, para componentes, roteamento e lógica de interface.
 
-- TypeScript — Para garantir tipagem estável e código mais robusto.
+- <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/> — Para garantir tipagem estável e código mais robusto.
 
-- Tailwind CSS — Biblioteca utilitária para estilização: permite escrever estilos de forma rápida, modular e responsiva. 
+- <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"/> — Biblioteca utilitária para estilização: permite escrever estilos de forma rápida, modular e responsiva. 
 GeeksforGeeks
 
 - Guards do Angular — Para proteger rotas, garantindo que apenas usuários autenticados ou autorizados possam acessar certas páginas.
